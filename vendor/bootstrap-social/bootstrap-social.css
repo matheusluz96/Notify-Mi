@@ -99,3 +99,10 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+
+/* NOTIFY-MI BUTTON
+.btn-notify{color:#fff;background-color:#55acee;border-color:rgba(0,0,0,0.2)}.btn-notify:hover,.btn-notify:focus,.btn-notify:active,.btn-notify.active,.open>.dropdown-toggle.btn-notify{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}
+.btn-notify:active,.btn-notify.active,.open>.dropdown-toggle.btn-notify{background-image:none}
+.btn-notify.disabled,.btn-notify[disabled],fieldset[disabled] .btn-notify,.btn-notify.disabled:hover,.btn-notify[disabled]:hover,fieldset[disabled] .btn-notify:hover,.btn-notify.disabled:focus,.btn-notify[disabled]:focus,fieldset[disabled] .btn-notify:focus,.btn-notify.disabled:active,.btn-notify[disabled]:active,fieldset[disabled] .btn-notify:active,.btn-notify.disabled.active,.btn-notify[disabled].active,fieldset[disabled] .btn-notify.active{background-color:#55acee;border-color:rgba(0,0,0,0.2)}
+.btn-notify .badge{color:#55acee;background-color:#fff}
+*/

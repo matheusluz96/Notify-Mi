@@ -1,0 +1,6 @@
+> Tabelas
+>> Cores
+    VERDE = ESTÁ PRONTO
+    AZUL = FAZENDO
+    AMARELO = AGUARDANDO RESPOSTA
+    VERMELHO = DEU RUIM

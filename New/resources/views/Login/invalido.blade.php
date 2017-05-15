@@ -54,7 +54,7 @@
     document.getElementById('counter').value = '00:00:'+sc;
 
     if (s > 0) {
-      TimerID = setTimeout("countdown()", 500) //Every one second;
+      TimerID = setTimeout("countdown()", 300) //Every one second;
     }
     else {
       location.href="/notifymi/login/";
@@ -77,8 +77,8 @@
                   <h2 align="center">Dados inválidos<h2>
 
 
-                      <body onload="javascript:setTimeout('countdown()', 500);">
-                        <input type="text" id="counter" value="00:00:05" disabled="disabled" hidden="true">
+                      <body onload="javascript:setTimeout('countdown()', 300);">
+                        <input type="text" id="counter" value="00:00:03" disabled="disabled" hidden="true">
 
 
                     </div>

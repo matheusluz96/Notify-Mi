@@ -56,10 +56,10 @@
                                             <td>{{$f->celular}}</td>
                                             <td>{{$f->cargo}}</td>
                                             <td>{{$f->avalilacao}}</td>
-                                            <td><a href="/funcionarios/detalhes/{{$f->id}}">
+                                            <td><a href="/notifymi/funcionarios/detalhes/{{$f->id}}">
                                                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                                                 </a>
-                                                <a href="/funcionarios/remove/{{$f->id}}">
+                                                <a href="/notifymi/funcionarios/remove/{{$f->id}}">
                                                     <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                                 </a>
                                             </td>

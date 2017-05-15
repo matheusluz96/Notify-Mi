@@ -9,10 +9,9 @@
   </div>
   <div class="panel panel-default">
     <div class="panel-heading">
-      Home maneira
+      Home
     </div>
     <div class="panel-body">
-      <h1> ~~coisas maneiras~~ </h1>
 
     </div>
 

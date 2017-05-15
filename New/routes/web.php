@@ -49,7 +49,10 @@ Route::get('/notifymi/gerentes/', 'GerenteController@lista');
 
 //funcionario
 Route::get('/notifymi/funcionarios/', 'FuncionarioController@lista');
-Route::get('/notifymi/funcionarios/detalhes', 'FuncionarioController@detalhes');
+Route::get('/notifymi/funcionarios/detalhes/{id}', 'FuncionarioController@detalhes');
+Route::get('/notifymi/funcionarios/cadastro', 'FuncionarioController@cadastro');
+Route::post('/notifymi/funcionarios/adiciona', 'FuncionarioController@adiciona');
+Route::get('/notifymi/funcionarios/remove/{id}', 'FuncionarioController@remove');
 
 
 

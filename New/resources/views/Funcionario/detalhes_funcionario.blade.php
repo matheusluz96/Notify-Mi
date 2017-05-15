@@ -40,9 +40,6 @@
               <p class="form-control-static" name = "bairro"></p>
             </div>
 
-
-          <!-- NAO DEVERIA TER UM /FORM NESTA LINHA???? -->
-
         </div>
         <!-- /1° row -->
 

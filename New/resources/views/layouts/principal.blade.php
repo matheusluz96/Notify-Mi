@@ -203,7 +203,7 @@
                 <a>Funcionários <span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="#">Cadastrar novo funcionário</a>
+                    <a href="/notifymi/funcionarios/cadastro">Cadastrar novo funcionário</a>
                   </li>
                   <li>
                     <a href="/notifymi/funcionarios/">Lista de funcionários</a>

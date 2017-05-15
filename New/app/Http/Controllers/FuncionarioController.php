@@ -27,7 +27,12 @@ class FuncionarioController extends Controller
       return redirect('/notifymi/funcionarios')->withInput();
   }
 
-    public function detalhes(){
-    return view('Funcionario/detalhes_funcionario');
+  public function detalhes($id)
+  {
+      //Resquest::route usado para receber um parametro da url
+      //$id = Request::route('id');
+      $funcionario = Funcionario::find($id);
+
+      return view('Funcionario/detalhes_funcionario')->with('funcionario', $funcionario);
   }
 }

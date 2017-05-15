@@ -30,6 +30,7 @@ Route::get('/notifymi/cadastro', 'LoginController@cadastro');
 
 //cliente
 Route::get('/notifymi/clientes/cadastro', 'ClienteController@cadastro');
+Route::get('/notifymi/clientes/lista', 'ClienteController@lista');
 
 //pedido
 Route::get('/notifymi/pedidos/lista', 'PedidoController@lista');

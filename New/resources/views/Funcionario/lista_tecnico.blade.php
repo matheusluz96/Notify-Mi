@@ -12,15 +12,23 @@
 
 @section('conteudo')
 
+    @if(old('nome'))
+        <div class="row">
+            <div class="alert alert-success">
+                Produto <strong>{{ old('nome') }}</strong> adicionado com sucesso !
+            </div>
+        </div>
+    @endif
+
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Pedidos</h1>
+                    <h1 class="page-header">Técnicos</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
              <div class="row">
-                <a class="btn btn-success" href="/notifymi/pedidos/cadastro">Novo</a>
+                <a class="btn btn-success" href="/notifymi/pedidos/cadastro">Novo Técnico</a>
              </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -30,39 +38,34 @@
                             <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
                                     <tr>
-                                        <th>Técnico</th>
-                                        <th>Aparelho</th>
-                                        <th>Defeito</th>
-                                        <th>Valor</th>
+                                        <th>Nome</th>
+                                        <th>Email</th>
+                                        <th>Avaliação</th>
+                                        <th>Telefone 1</th>
+                                        <th>Telefone 2</th>
                                       </tr>
 
                                     </thead>
                                     <tbody>
-                                      <tr class="success">
-                                        <td>Carlinhos</td>
-                                        <td>Iphone7</td>
-                                        <td>Tela trincada</td>
-                                        <td>R$ 799</td>
-                                      </tr>
-                                  <tr class="warning">
-                                    <td>Carlinhos</td>
-                                      <td>Galaxy s8</td>
-                                      <td>Não carrega</td>
-                                      <td>Indeterminado</td>
-                                  </tr>
-                                  <tr class="info">
-                                    <td>Carlinhos</td>
-                                    <td>Zenfone 2</td>
-                                    <td>Tela trincada</td>
-                                    <td>R$ 1799</td>
-                                  </tr>
-                                  <tr class="danger">
-                                    <td>Carlinhos</td>
-                                      <td>Iphone7</td>
-                                      <td>Tela trincada</td>
-                                      <td>R$ 652</td>
-                                  </tr>
+                                      @foreach($tecnicos as $t)
+                                        <tr>
+                                            <td>{{$t->nome}}</td>
+                                            <td>{{$t->email}}</td>
+                                            <td>{{$t->avaliacao}}</td>
+                                            <td>{{$t->telefone1}}</td>
+                                            <td>{{$t->telefone2}}</td>
+                                            <td><a href="/tecnicos/informacao/{{$t->id}}">
+                                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                            <td><a href="/tecnicos/remove/{{$t->id}}">
+                                                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
+                            </table>
 
 
             </div>

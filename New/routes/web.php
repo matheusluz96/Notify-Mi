@@ -34,6 +34,7 @@ Route::get('/notifymi/cadastrar', 'LoginController@cadastro');
 Route::post('/notifymi/cadastrar', 'LoginController@cadastro');
 Route::post('/notifymi/cadastrar/form', 'LoginController@cadastro');
 
+Route::get('/notifymi/home', 'HomeController@index');
 //tecnico
 Route::get('/notifymi/tecnicos/cadastro', 'TecnicoController@cadastro');
 Route::post('/notifymi/tecnicos/adiciona', 'TecnicoController@adiciona');
@@ -64,4 +65,4 @@ Route::get('/notifymi/funcionarios/remove/{id}', 'FuncionarioController@remove')
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');

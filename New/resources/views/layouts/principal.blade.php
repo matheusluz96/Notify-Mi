@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Notify-Mi Cadastro de Pedidos</title>
+  <title>Notify-Mi</title>
 
   @yield('css')
 
@@ -47,7 +47,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Notify-Mi</a>
+        <a class="navbar-brand" href="/notifymi/home">Notify-Mi</a>
       </div>
       <!-- /.navbar-header -->
 
@@ -188,7 +188,7 @@
             <!-- menu lateral -->
           </li>
           <li>
-            <a href="#"><i class="fa fa-home fa-fw"></i> Início</a>
+            <a href="/notifymi/home"><i class="fa fa-home fa-fw"></i> Início</a>
           </li>
           <li>
 

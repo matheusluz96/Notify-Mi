@@ -40,4 +40,12 @@ class FuncionarioController extends Controller
 
       return view('Funcionario/detalhes_funcionario')->with('funcionario', $funcionario);
   }
+
+    public function remove($id)
+    {
+        $funcionario = Funcionario::find($id);
+        $funcionario->delete();
+
+        return redirect()->action('FuncionarioController@lista');
+    }
 }

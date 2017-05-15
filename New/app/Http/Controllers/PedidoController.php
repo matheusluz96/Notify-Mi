@@ -34,4 +34,13 @@ class PedidoController extends Controller
 
         return redirect('/notifymi/pedidos')->with('cadastro', $cadastro);
     }
+
+    public function remove($id)
+    {
+        //$id = Request::route('id');
+        $pedido = Pedido::find($id);
+        $pedido->delete();
+
+        return redirect()->action('PedidoController@lista');
+    }
 }

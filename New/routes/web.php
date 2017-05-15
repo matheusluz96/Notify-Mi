@@ -50,6 +50,7 @@ Route::get('/notifymi/clientes/lista', 'ClienteController@lista');
 Route::get('/notifymi/pedidos/', 'PedidoController@lista');
 Route::get('/notifymi/pedidos/cadastro', 'PedidoController@cadastro');
 Route::post('/notifymi/pedidos/adiciona', 'PedidoController@adiciona');
+Route::get('/notifymi/pedidos/remove/{id}', 'PedidoController@remove');
 
 //gerente
 Route::get('/notifymi/gerentes/cadastro', 'GerenteController@cadastro');

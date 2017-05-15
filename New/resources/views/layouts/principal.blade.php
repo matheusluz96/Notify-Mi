@@ -206,7 +206,7 @@
                     <a href="#">Cadastrar novo funcionário</a>
                   </li>
                   <li>
-                    <a href="#">Lista de funcionários</a>
+                    <a href="/notifymi/funcionarios/lista">Lista de funcionários</a>
                   </li>
                 </ul>
                 </li>

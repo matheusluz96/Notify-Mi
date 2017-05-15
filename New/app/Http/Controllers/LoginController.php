@@ -20,7 +20,7 @@ class LoginController extends Controller
         {
             return view('/Cliente/cadastro_cliente');
         }
-        return "voce nao existe";
+        return "Dados inválidos";
 
     }
 

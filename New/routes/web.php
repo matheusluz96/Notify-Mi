@@ -27,6 +27,7 @@ Route::get('/notifymi', 'LoginController@form');
 Route::get('/notifymi/login', 'LoginController@form');
 Route::post('/notifymi/login', 'LoginController@login');
 Route::get('/notifymi/cadastro', 'LoginController@cadastro');
+Route::get('/notifymi/cadastrar', 'LoginController@cadastro');
 
 //tecnico
 Route::get('/notifymi/tecnicos/cadastro', 'TecnicoController@cadastro');

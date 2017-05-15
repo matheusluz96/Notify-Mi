@@ -37,6 +37,10 @@ Route::get('/notifymi/pedidos/lista', 'PedidoController@lista');
 Route::get('/notifymi/pedidos/', 'PedidoController@lista');
 Route::get('/notifymi/pedidos/cadastro', 'PedidoController@cadastro');
 
+//tecnico
+Route::get('/notifymi/tecnicos/', 'TecnicoController@lista');
+Route::get('/notifymi/tecnicos/cadastro', 'TecnicoController@cadastro');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -27,9 +27,6 @@
                     </div>
                 </div>
             @endif
-             <div class="row">
-                <a class="btn btn-success" href="/notifymi/pedidos/cadastro">Novo pedido</a>
-             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">

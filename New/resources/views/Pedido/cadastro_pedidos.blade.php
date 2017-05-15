@@ -44,7 +44,7 @@
             </div>
         </div> 
         <div class="form-group {{ $errors->has('valor') ? 'has-error' : ''}}">
-            <label for="valor" class="col-sm-2 control-label">valor</label>
+            <label for="valor" class="col-sm-2 control-label">Valor</label>
             <div class="col-sm-4">
                 <input type="numeric" name="valor" value="{{ old('valor') }}" class="form-control" id="valor" placeholder="Opcional">
                 <span class="help-block"><?php echo $errors->first('valor'); ?></span>

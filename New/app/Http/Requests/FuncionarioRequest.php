@@ -26,7 +26,7 @@ class FuncionarioRequest extends FormRequest
         return [
             'nome' => 'required|max:50',
             'email' => 'required|max:60',
-            'cpf' => 'required|numeric|max:99999999999',
+            'cpf' => 'required|',
             'cidade' => 'max:50',
             'bairro' => 'max:50',
             'rua' => 'max:50',

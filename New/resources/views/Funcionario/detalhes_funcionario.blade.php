@@ -24,22 +24,22 @@
 
           <div class="form-group">
             <label>Email:</label>
-            <p class="form-control-static"></p>
+            <p class="form-control-static">{{$funcionario->email}}</p>
           </div>
 
           <div class="form-group">
             <label>Cargo:</label>
-            <p class="form-control-static"></p>
+            <p class="form-control-static">{{$funcionario->cargo}}</p>
           </div>
 
           <div class="form-group">
             <label>CPF:</label>
-            <p class="form-control-static"></p>
+            <p class="form-control-static">{{$funcionario->cpf}}</p>
           </div>
 
           <div class="form-group">
             <label>Bairro:</label>
-            <p class="form-control-static"></p>
+            <p class="form-control-static">{{$funcionario->bairro}}</p>
           </div>
 
 
@@ -54,33 +54,33 @@
 
 
             <div class="form-group">
-              <label>Telefone de Contato 1:</label>
-              <p class="form-control-static" name = "telefone1"></p>
+              <label>Celular:</label>
+              <p class="form-control-static" name = "celular">{{$funcionario->celular}}</p>
             </div>
 
 
 
             <div class="form-group">
-              <label>Telefone de Contato 2:</label>
-              <p class="form-control-static" name = "telefone2"></p>
+              <label>Telefone:</label>
+              <p class="form-control-static" name = "telefone">{{$funcionario->telefone}}</p>
             </div>
 
 
             <div class="form-group">
               <label>Cidade:</label>
-              <p class="form-control-static" name = "cidade"></p>
+              <p class="form-control-static" name = "cidade">{{$funcionario->cidade}}</p>
             </div>
 
 
 
             <div class="form-group">
               <label>Rua:</label>
-              <p class="form-control-static" name = "rua"></p>
+              <p class="form-control-static" name = "rua">{{$funcionario->rua}}</p>
             </div>
 
             <div class="form-group">
               <label>Observação:</label>
-              <p class="form-control-static" name = "rua"></p>
+              <p class="form-control-static" name = "rua">{{$funcionario->observacao}}</p>
             </div>
           </form>
 

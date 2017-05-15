@@ -66,4 +66,4 @@ Route::get('/notifymi/funcionarios/remove/{id}', 'FuncionarioController@remove')
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');

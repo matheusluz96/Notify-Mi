@@ -4,23 +4,23 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tecnico extends Model
+class Funcionario extends Model
 {
     public $timestamps = false;
 
-    protected $table = 'tecnicos';
+    protected $table = 'funcionarios';
 
     protected $fillable = [
         'nome', 
-        'cidade', 
+        'email', 
+        'cpf',
+        'cidade',
         'bairro',
         'rua',
-        'email',
-        'avaliacao',
-        'telefone1',
-        'telefone2',
-        'cpf',
+        'celular',
+        'telefone',
         'observacao',
+        'cargo',
     ];
 
     //ao contrario do fillable, os atributos no guarded NUNCA

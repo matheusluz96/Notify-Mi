@@ -12,15 +12,24 @@
 
 @section('conteudo')
 
+
+
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Funcionarios</h1>
+                    <h1 class="page-header">Funcionários</h1>
                 </div>
+                    @if(old('nome'))
+                        <div class="row">
+                            <div class="alert alert-success">
+                                Funcionário <strong>{{ old('nome') }}</strong> adicionado com sucesso !
+                            </div>
+                        </div>
+                    @endif
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
              <div class="row">
-                <a class="btn btn-success" href="/notifymi/pedidos/cadastro">Novo</a>
+                <a class="btn btn-success" href="/notifymi/funcionarios/cadastro">Adicionar Funcionário</a>
              </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -31,45 +40,33 @@
                                 <thead>
                                     <tr>
                                         <th>Nome</th>
-                                        <th>Telefone</th>
-                                        <th>Celular</th>
-                                        <th>CPF</th>
                                         <th>E-mail</th>
+                                        <th>Celular</th>
                                         <th>Cargo</th>
+                                        <th>Avaliação</th>
+                                        <th></th>
                                       </tr>
 
                                     </thead>
                                     <tbody>
-                                      <tr>
-                                        <td>Sonic</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Gerente</td>
+                                      @foreach($funcionarios as $f)
+                                        <tr>
+                                            <td>{{$f->nome}}</td>
+                                            <td>{{$f->email}}</td>
+                                            <td>{{$f->celular}}</td>
+                                            <td>{{$f->cargo}}</td>
+                                            <td>{{$f->avalilacao}}</td>
+                                            <td><a href="/funcionarios/detalhes/{{$f->id}}">
+                                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                                </a>
+                                                <a href="/funcionarios/remove/{{$f->id}}">
+                                                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    @endforeach
 
-                                      </tr>
-
-                                      <tr >
-                                        <td>Eggman</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Técnico</td>
-
-                                      </tr>
-
-                                      <tr>
-                                        <td>Tails</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Atendente</td>
-                                      </tr>
-
-                                </tbody>
+                                    </tbody>
 
 
             </div>

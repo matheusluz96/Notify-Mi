@@ -30,8 +30,9 @@ Route::get('/notifymi/cadastro', 'LoginController@cadastro');
 
 //tecnico
 Route::get('/notifymi/tecnicos/cadastro', 'TecnicoController@cadastro');
+Route::post('/notifymi/tecnicos/adiciona', 'TecnicoController@adiciona');
 Route::get('/notifymi/tecnicos/', 'TecnicoController@lista');
-Route::post('/notifymi/tecnicos/informacao/{id}', 'TecnicoController@informacao');
+Route::get('/notifymi/tecnicos/informacao/{id}', 'TecnicoController@informacao');
 Route::get('/notifymi/tecnicos/remove/{id}', 'TecnicoController@remove');
 
 //cliente
@@ -48,7 +49,10 @@ Route::get('/notifymi/gerentes/', 'GerenteController@lista');
 
 //funcionario
 Route::get('/notifymi/funcionarios/', 'FuncionarioController@lista');
-Route::get('/notifymi/funcionarios/detalhes', 'FuncionarioController@detalhes');
+Route::get('/notifymi/funcionarios/detalhes/{id}', 'FuncionarioController@detalhes');
+Route::get('/notifymi/funcionarios/cadastro', 'FuncionarioController@cadastro');
+Route::post('/notifymi/funcionarios/adiciona', 'FuncionarioController@adiciona');
+Route::get('/notifymi/funcionarios/remove/{id}', 'FuncionarioController@remove');
 
 
 

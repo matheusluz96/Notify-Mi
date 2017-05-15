@@ -46,4 +46,6 @@ class TecnicoRequest extends FormRequest
             'observacao.max'       => 'O campo Observação não pode passar de :max caracteres.'
         ];
     }
+
+
 }

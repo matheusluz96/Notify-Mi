@@ -26,4 +26,9 @@ class Funcionario extends Model
     //ao contrario do fillable, os atributos no guarded NUNCA
     //serao mudados via massassign
     protected $guarded = ['id'];
+    
+    public function pedidos()
+    {
+        return $this->hasMany('App\Pedido');
+    }
 }

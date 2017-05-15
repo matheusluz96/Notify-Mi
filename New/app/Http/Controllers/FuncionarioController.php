@@ -8,6 +8,11 @@ use App\Http\Requests\FuncionarioRequest;
 
 class FuncionarioController extends Controller
 {
+        public function __construct()
+    {
+        $this->middleware('autorizador');
+    }
+    
   public function lista()
   {
     $funcionarios = Funcionario::all();

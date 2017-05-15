@@ -44,6 +44,9 @@
                         <img src="/media/logoh.png" width="475" title="Notify-Mi" alt="Notify-Mi" class="img-responsive center-block" />
                     </div>
                     <div class="panel-body">
+                    @if(isset($erro))
+                            <div class="alert alert-danger" role="alert">Dados inválidos !</div>
+                        @endif
                         <form role="form" action="/notifymi/login" method="post">
                             <fieldset>
                                 <input type="hidden" value="{{ csrf_token() }}" name="_token" />

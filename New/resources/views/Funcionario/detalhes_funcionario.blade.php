@@ -92,15 +92,15 @@
     <div class="row">
       <div class="col-sm-5">
 
-        <a href="#" class="btn btn-warning" onclick="alert('Cadastro feito com sucesso!');">
+<!--        <a href="#" class="btn btn-warning" onclick="alert('Cadastro feito com sucesso!');">
 
           <i class=""></i> Alterar
-        </a>
-        <a href="#" class="btn btn-danger">
+        </a>-->
+<!--        <a href="#" class="btn btn-danger">
           <i class=""></i> Cancelar
-        </a>
+        </a>-->
 
-        <a href="#" class="btn btn-primary">
+        <a href="/notifymi/funcionarios" class="btn btn-primary">
           <i class=""></i> Voltar
         </a>
 

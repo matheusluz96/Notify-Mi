@@ -18,9 +18,10 @@ class LoginController extends Controller
 
     if(Auth::attempt($credenciais))
     {
-      return view('/Cliente/cadastro_cliente');
+      return redirect()->action('PedidoController@lista');
     }
-    return view('Login/invalido');
+    $erro = true;
+    return view('Login/login')->with('erro', $erro);
 
   }
 

@@ -39,14 +39,17 @@ Route::get('/notifymi/clientes/cadastro', 'ClienteController@cadastro');
 Route::get('/notifymi/clientes/lista', 'ClienteController@lista');
 
 //pedido
-Route::get('/notifymi/pedidos/lista', 'PedidoController@lista');
 Route::get('/notifymi/pedidos/', 'PedidoController@lista');
 Route::get('/notifymi/pedidos/cadastro', 'PedidoController@cadastro');
 
 //gerente
 Route::get('/notifymi/gerentes/cadastro', 'GerenteController@cadastro');
 Route::get('/notifymi/gerentes/', 'GerenteController@lista');
+
+//funcionario
 Route::get('/notifymi/funcionarios/', 'FuncionarioController@lista');
+Route::get('/notifymi/funcionarios/detalhes', 'FuncionarioController@detalhes');
+
 
 
 Auth::routes();

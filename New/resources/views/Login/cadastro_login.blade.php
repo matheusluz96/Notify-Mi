@@ -98,13 +98,14 @@
                     Registrar
                   </button>
 
+
+                    <a class="btn btn-danger" href="/notifymi/login/">
+                      Cancelar
+                    </a>
+
                 </div>
               </div>
             </form>
-            <div class="col-md-8 ol-md-offset-4">
-              <button class="btn btn-danger" href="/Login/login">
-                Cancelar
-              </button>
 
             </div>
           </div>

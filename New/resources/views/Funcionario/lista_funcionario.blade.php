@@ -28,9 +28,10 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-             <div class="row">
+          <!--   <div class="row">
                 <a class="btn btn-success" href="/notifymi/funcionarios/cadastro">Adicionar Funcionário</a>
              </div>
+             //-->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">

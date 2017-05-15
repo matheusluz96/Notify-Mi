@@ -195,9 +195,7 @@
             <a href="#"><i class="fa fa-wrench fa-fw"></i> Ferramentas<span class="fa arrow"></span></a>
 
             <ul class="nav nav-second-level">
-              <li>
-                <a href="#">Teste</a>
-              </li>
+
 
               <li>
                 <a>Funcionários <span class="fa arrow"></span></a>
@@ -240,6 +238,7 @@
             </ul>
 
           </li>
+          <!--
           <li>
             <a href="#"><i class="fa fa-files-o fa-fw"></i>Páginas Modelo<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
@@ -253,8 +252,9 @@
                 <a href="#">Tabelas</a>
               </li>
             </ul>
-            <!-- /menu lateral -->
+
           </li>
+          //-->
         </ul>
       </div>
       <!-- /.sidebar-collapse -->

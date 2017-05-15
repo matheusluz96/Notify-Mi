@@ -27,6 +27,7 @@ Route::get('/notifymi', 'LoginController@form');
 Route::get('/notifymi/login', 'LoginController@form');
 Route::post('/notifymi/login', 'LoginController@login');
 Route::post('/notifymi/Login/form', 'LoginController@login');
+Route::get('/notifymi/login/invalido', 'LoginController@invalido');
 
 //Cadastro
 Route::get('/notifymi/cadastrar', 'LoginController@cadastro');

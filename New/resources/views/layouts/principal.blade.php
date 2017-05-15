@@ -203,7 +203,7 @@
                 <a>Funcionários <span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="#">Cadatrar novo funcionário</a>
+                    <a href="#">Cadastrar novo funcionário</a>
                   </li>
                   <li>
                     <a href="#">Lista de funcionários</a>
@@ -214,7 +214,7 @@
                 <a>Clientes <span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="#">Cadatrar novo cliente</a>
+                    <a href="/notifymi/clientes/cadastro">Cadastrar novo cliente</a>
                   </li>
                   <li>
                     <a href="#">Lista de clientes</a>

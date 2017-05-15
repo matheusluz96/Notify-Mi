@@ -31,11 +31,11 @@
 <body>
   <div class="container">
     <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div class="panel-body">
-                  <img src="../media/logoh.png" width="475" title="Notify-Mi" alt="Notify-Mi" class="img-responsive center-block" />
-              </div>
-                <div class="login-panel panel panel-default">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel-body">
+          <img src="../media/logoh.png" width="475" title="Notify-Mi" alt="Notify-Mi" class="img-responsive center-block" />
+        </div>
+        <div class="login-panel panel panel-default">
 
           <div class="panel-heading">Registrar</div>
           <div class="panel-body">
@@ -92,17 +92,21 @@
                 </div>
               </div>
 
-              <div class="form-group">
-                <div class="col-md-6 col-md-offset-4">
+              <div class="col-md-6 col-md-offset-4">
+                <div class="form-group">
                   <button type="submit" class="btn btn-success">
                     Registrar
                   </button>
-                  <button class="btn btn-danger" href="/Login/login">
-                    Cancelar
-                  </button>
+
                 </div>
               </div>
             </form>
+            <div class="col-md-8 ol-md-offset-4">
+              <button class="btn btn-danger" href="/Login/login">
+                Cancelar
+              </button>
+
+            </div>
           </div>
         </div>
       </div>

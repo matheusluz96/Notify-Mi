@@ -18,26 +18,26 @@
 
             <label>Nome completo:</label>
 
-            <p class="form-control-static" name="nome"></p>
+            <p class="form-control-static" name = "nome"></p>
 
           </div>
 
           <div class="form-group">
             <label>Email:</label>
-            <p class="form-control-static" name="email"></p>
+            <p class="form-control-static" name = "email"></p>
           </div>
 
 
 
           <div class="form-group">
             <label>CPF:</label>
-            <p class="form-control-static"name="CPF"></p>
+            <p class="form-control-static" name = "CPF"></p>
           </div>
 
 
             <div class="form-group">
               <label>Bairro:</label>
-              <p class="form-control-static" name="bairro"></p>
+              <p class="form-control-static" name = "bairro"></p>
             </div>
 
 

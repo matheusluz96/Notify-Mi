@@ -10,4 +10,7 @@ class FuncionarioController extends Controller
   {
       return view('Funcionario/lista_funcionario');
   }
+  public function detalhes(){
+    return view('Funcionario/detalhes_funcionario');
+  }
 }

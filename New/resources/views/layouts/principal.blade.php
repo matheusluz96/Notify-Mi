@@ -206,7 +206,7 @@
                     <a href="#">Cadastrar novo funcionário</a>
                   </li>
                   <li>
-                    <a href="/notifymi/funcionarios/lista">Lista de funcionários</a>
+                    <a href="/notifymi/funcionarios/">Lista de funcionários</a>
                   </li>
                 </ul>
                 </li>
@@ -228,10 +228,10 @@
                 <a>Pedidos <span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="#">Cadatrar novo pedido</a>
+                    <a href="/notifymi/pedidos/cadastro">Cadatrar novo pedido</a>
                   </li>
                   <li>
-                    <a href="#">Lista de pedidos</a>
+                    <a href="/notifymi/pedidos">Lista de pedidos</a>
                   </li>
 
                 </ul>

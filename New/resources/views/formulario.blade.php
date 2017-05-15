@@ -1,4 +1,4 @@
-@extends('principal')
+@extends('layouts.principal')
 @section('conteudo')
 <!-- 1° row -->
 <div class="row">
